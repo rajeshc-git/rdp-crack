@@ -1,3 +1,3 @@
 *
---
-Run ./rdp.ps1
+Run
+.\TermsrvPatcher.ps1
