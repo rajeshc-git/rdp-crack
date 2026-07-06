@@ -4,7 +4,8 @@
 
 ### Windows Terminal Services Patch Utility
 
-<img src="assets/banner.svg" width="100%" alt="TermsrvPatcher Banner"/>
+<img width="100%"  alt="TermsrvPatcher Banner" src="https://github.com/user-attachments/assets/d84064f7-8cd8-4243-b72b-8d563fecfdd8" />
+
 
 <br/>
 
