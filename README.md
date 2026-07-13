@@ -7,7 +7,14 @@
 <img width="100%"  alt="TermsrvPatcher Banner" src="https://github.com/user-attachments/assets/d84064f7-8cd8-4243-b72b-8d563fecfdd8" />
 
 
+take ownership (powershell run as admin)
+takeown /f C:\Windows\System32\termsrv.dll /a
+icacls C:\Windows\System32\termsrv.dll /grant Administrators:F
 <br/>
+Bypass policy of powershell
+
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+
 
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-5391FE?style=for-the-badge\&logo=powershell\&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge\&logo=windows\&logoColor=white)
