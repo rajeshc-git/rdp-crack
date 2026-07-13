@@ -39,7 +39,7 @@ Run the script in **PowerShell as Administrator**.
 ```
 
 ---
-
+# Run
 ```powershell id="h7s82l"
 .\TermsrvPatcher.ps1
 ```
