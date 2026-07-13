@@ -25,13 +25,15 @@
 
 # 🚀 Usage
 
-```Take ownership (powershell run as admin)
+# Take ownership (powershell run as admin)
+```
 takeown /f C:\Windows\System32\termsrv.dll /a
 icacls C:\Windows\System32\termsrv.dll /grant Administrators:F
 ```
 ---
-```Bypass policy of powershell
 
+# Bypass policy of powershell
+```
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 Run the script in **PowerShell as Administrator**.
 ```
