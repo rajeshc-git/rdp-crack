@@ -35,7 +35,6 @@ icacls C:\Windows\System32\termsrv.dll /grant Administrators:F
 # Bypass policy of powershell
 ```
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
-Run the script in **PowerShell as Administrator**.
 ```
 
 ---
