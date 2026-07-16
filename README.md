@@ -28,6 +28,8 @@
 # Take ownership (powershell run as admin)
 ```
 takeown /f C:\Windows\System32\termsrv.dll /a
+```
+```
 icacls C:\Windows\System32\termsrv.dll /grant Administrators:F
 ```
 ---
