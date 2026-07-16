@@ -95,17 +95,6 @@ Before running:
 PS C:\Tools\TermsrvPatcher> .\TermsrvPatcher.ps1
 ```
 ---
-Optional
-# 3. Strip all inherited permissions and restrict Administrators to Full, Authenticated Users to Read-only
-```
-icacls "C:\Windows\System32\termsrv.dll" /inheritance:r /grant:r "*S-1-5-32-544:(F)" /grant:r "*S-1-11:(R)"
-```
----
-# 4. Downgrade standard Local Users and All Application Packages to Read-only
-```
-icacls "C:\Windows\System32\termsrv.dll" /grant:r "*S-1-5-32-545:(R)" /grant:r "*S-1-15-2-1:(R)"
-```
----
 
 
 
